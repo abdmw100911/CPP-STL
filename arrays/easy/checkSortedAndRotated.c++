@@ -4,6 +4,16 @@ using namespace std;
 bool checkSortedAndRotated(vector<int> arr){
     //if array is sorted and rotated
     //4 5 6 1 2 3
+
+    //if array is sorted and rotated(0)
+    //1 2 3 4
+
+    //if array was not sorted and rotated(0)
+    //1 2 4 3
+
+    //if array was not sorted and rotated
+    //2 4 3 1
+    
     //there are 2 hints that array was originally sorted and then rotated at some position
     /*
     1. arr[0] > arr[n-1]
