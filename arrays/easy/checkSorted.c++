@@ -41,6 +41,7 @@ bool checkSortedOptimal(vector<int> arr, int n){
         }
     }
     return true;
+    //time complexity : O(n)
 }
 int main(){
     vector<int> arr = {1,1,1,1,0};
